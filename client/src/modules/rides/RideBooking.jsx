@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://universal-bookings-server.onrender.com";
 
 const PROVIDERS = [
   { provider: "Uber", logo: "🚗", options: [{ type: "UberGo", fare: 120, eta: "4 mins", seats: 4 }, { type: "UberPremier", fare: 220, eta: "6 mins", seats: 4 }, { type: "UberXL", fare: 300, eta: "8 mins", seats: 6 }] },
