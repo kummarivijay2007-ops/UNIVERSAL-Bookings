@@ -28,7 +28,7 @@ function AuthModal({ defaultTab, onClose, onLoginSuccess }) {
     e.preventDefault();
     setError("");
     setLoading(true);
-    const endpoint = tab === "login" ? `${API}/auth/login` : `${API}/auth/register`;
+    const endpoint = tab === "login" ? `${API}/api/auth/login` : `${API}/api/auth/register`;
     const body = tab === "login"
       ? { email: form.email, password: form.password }
       : { name: form.name, email: form.email, password: form.password };
