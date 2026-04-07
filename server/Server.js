@@ -7,7 +7,7 @@ const app = express();
 
 // ── Middleware ────────────────────────────────────────────────────────────────
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: ["http://localhost:5173","https://universal-bookings.vercel.app"],
   credentials: true,
 }));            // Allow requests from React frontend
 app.use(express.json());          // Parse incoming JSON request bodies
