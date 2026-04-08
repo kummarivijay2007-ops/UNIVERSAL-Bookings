@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API = "https://universal-bookings-server.onrender.com";
+const API = "https://universal-bookings-server.onrender.com/api";
 
 // ─── Product Card ─────────────────────────────────────────────────────────────
 function ProductCard({ product, onView }) {

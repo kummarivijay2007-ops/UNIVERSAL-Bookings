@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API = "https://universal-bookings-server.onrender.com";
+const API = "https://universal-bookings-server.onrender.com/api";
 
 const CITIES = [
   "Delhi (DEL)", "Mumbai (BOM)", "Bangalore (BLR)", "Hyderabad (HYD)",
